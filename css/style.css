@@ -1,0 +1,91 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+
+:root {
+  --clr-primary-Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --clr-primary-Soft-Pink: hsl(333, 80%, 67%);
+
+  --clr-neutral-Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --clr-neutral-Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --clr-neutral-White: hsl(0, 0%, 100%);
+
+  --fs-body: 15px;
+
+  --font-family: "League Spartan", sans-serif;
+
+  --fw-400: 400;
+  --fw-400: 500;
+  --fw-400: 700;
+}
+
+.bg-top {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  background: url(../images/bg-pattern-top-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.bg-bottom {
+  position: absolute;
+  width: 50%;
+  height: 50vh;
+  background: url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+/* article__one */
+/* .article__one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.rate-content {
+  display: flex;
+  gap: 0.3rem;
+}
+.rate-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.rate-star img {
+  height: 15px;
+} */
+
+/* artcile__two */
+/* .artcile__two {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (min-width: 48rem) {
+  .container {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 48rem) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .article__one,
+  .artcile__two,
+  .rate-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rate-content h2 {
+    text-align: center;
+  }
+} */
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
